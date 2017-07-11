@@ -1,0 +1,60 @@
+/*@media screen and (min-width:1200px){
+    body{
+        background: none;
+    }
+}*/
+@media screen and (min-width:960px){
+    #burger{
+        display: none;
+    }
+}
+@media screen and (max-width:1224px){
+    #accroche{width: 27%;}
+    #menu1 a{font-size: 1em ; }
+    #menu2 a{font-size: 1em;  }
+    #menu1{left: 7%;}
+    #menu2{left: 70%;}
+    .aloe{height: 60%;}
+    #logo{left: 35%; }
+    #aloe-bio{left: 5%}
+}
+@media screen and (max-width:960px){
+    #menu1, #menu2{display: none;}
+    #logo{width: 36%;}
+    #concept-title{left: 40%; width: 150px; height: 150px;}
+    #porduit-title{left: 40%;width: 150px; height: 150px;}
+    #lieux-title{left: 40%;width: 150px; height: 150px;}
+    #infos{left: 40%;width: 150px; height: 150px;}
+    #aloe-bio{width: 40%; left: 0%;}
+    .aloe{ opacity: 0.7;}
+    #lieux>p{left: 30%; right: 30%;}
+    #acces{font-size: 1.2em;}
+    #time{font-size: 1.2em;}
+    blockquote{left: 20%; right: 20%; font-size: 2.5em;}
+    #logomarche{left: 40%; height: 5%;}
+    #logoepicerie{left: 50%;height: 2%;}
+    #logodior{left: 65%;height: 3%;}
+    #reso{left: 40%;}
+    
+}
+@media screen and (max-width:768px){
+    .aloe{height: 50%;}
+    #menu1, #menu2{display: none;}
+    #acces{font-size: 1em; left: 10%;}
+    #time{font-size: 1em; right: 10%;}
+    footer>p{font-size: 0.8em;left: 30%;}
+    
+}
+@media screen and (max-width:600px){}
+@media screen and (max-width:480px){
+    #concept>p{font-size: 1em; text-align: justify;}
+    #lieux>p{font-size: 1em; text-align: justify; font-weight: 400;}
+    blockquote{font-size: 2em}
+    footer>p{font-size: 0.5em;}
+    #logomarche{left: 20%;}
+    #logoepicerie{left: 38%;}
+    #logodior{left: 65%;}
+    #reso{left: 30%;}
+    
+}
+@media screen and (max-width:320px){}
